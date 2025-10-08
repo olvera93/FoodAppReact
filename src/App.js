@@ -5,6 +5,7 @@ import RegisterPage from "./components/auth/RegisterPage";
 import LoginPage from "./components/auth/LoginPage";
 import HomePage from "./components/home_menu/HomePage";
 import CategoriesPage from "./components/home_menu/CategoriesPage";
+import MenuPage from "./components/home_menu/MenuPage";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/login" element={<LoginPage />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/categories" element={<CategoriesPage />} />
+          <Route path="/menu" element={<MenuPage />} />
         </Routes>
       </div>
       <Footer />
