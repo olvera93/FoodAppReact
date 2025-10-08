@@ -16,7 +16,7 @@ const ErrorDisplay = ({ message, onDismiss }) => {
         return () => clearTimeout(timer);
     }, [message, onDismiss]);
 
-    // Don't render if there's n o error message
+    // Don't render if there's no error message
     if (!message) return null;
 
     return (
